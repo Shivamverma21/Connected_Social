@@ -1,4 +1,4 @@
-.signIn{
+.signIn {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB1lN1hGZAj0MpZ1ZoN7tt7q38JyzTvjmSMQ&usqp=CAU");
     background-size: cover;
     flex: 1;
@@ -7,29 +7,35 @@
     align-items: center;
 }
 
-.loginForm{
-    background-color: #ffffff4d;
+.loginForm {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjusted for better visibility */
     padding: 30px;
     border: 1px solid rgb(129, 121, 121);
-    border-radius: 1px;
-} 
+    border-radius: 8px; /* Increased border radius for a modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
 
-.loginForm2{
-    background-color: #ffffff4d;
+.loginForm2 {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjusted for better visibility */
     padding: 20px;
     margin-top: 5px;
     border: 1px solid rgb(129, 121, 121);
-    border-radius: 1px;
+    border-radius: 8px; /* Increased border radius for consistency */
+    text-align: center; /* Centered text */
 }
 
-#login-btn{
+#login-btn {
     background-color: #1773EA;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px; /* Increased border radius for consistency */
     color: white;
     font-weight: bold;
-    padding: 5px 10px;
-   
+    padding: 10px 15px; /* Adjusted padding for a better button size */
     cursor: pointer;
-    margin-top: 8px;
+    margin-top: 10px; /* Adjusted margin for spacing */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#login-btn:hover {
+    background-color: #145DA0; /* Darker shade on hover */
 }
