@@ -1,2 +1,20 @@
-node_modules
+# Node modules
+node_modules/
 
+# Build output
+frontend/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Optional: ignore local IDE settings
+.idea/
+.vscode/
+
+# MacOS specific files
+.DS_Store
